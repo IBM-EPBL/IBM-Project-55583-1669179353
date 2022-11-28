@@ -1,0 +1,44 @@
+,,,,Date,8-Nov-22,,,,,,,,
+,,,,Project Name.,Smart Waste Management For metropolitan Cities  Recommender App,,,,,,,,
+,,,,Maximum Marks,4 marks,,,,,,,,
+Test case ID,Feature Type,Component, Test Scenario,Pre-Requisite,Steps To Execute,Test Data,Expected Result,Actual Result,Status,Commnets,TC for Automation(Y/N),BUG ID,Executed By
+LoginPage_TC_OO1,Functional,Home Page,Verify  user is able to see the Login/Signup popup when user clicked on My account button ,,"1.Enter URL and click go
+2.Click on My Account dropdown button
+3.Verify login/Singup popup displayed or not",index.html,Login/Signup popup should display,Working as expected,Pass,       ,Y,,"Naveen R S, Sriram V"
+LoginPage_TC_OO2,UI,Home Page,Verify the UI elements in Login/Signup popup,,"1.Enter URL and click go
+2.Click on My Account dropdown button
+3.Verify login/Singup popup with below UI elements:
+a.email text box
+b.password text box
+c.Login button
+d.New customer? Create account link
+e.Last password? Recovery password link",                  index.html,"Application should show below UI elements:
+a.email text box
+b.password text box
+c.Login button with orange colour
+d.New customer? Create account link
+e.Last password? Recovery password link",Working as expected,Pass,,Y,,"Jyothi Saai Raam P N,Samuvel Joshva S"
+LoginPage_TC_OO3,Functional,Home page,Verify user is able to log into application with Valid credentials,,"1.Enter URL(index.html) and click go
+2.Click on My Account dropdown button
+3.Enter Valid username/email in Email text box
+4.Enter valid password in password text box
+5.Click on login button","Username: abcd@gmail.com
+password: Testing123",User should navigate to user account homepage,Working as expected,Pass,,Y,,"Naveen R S, Sriram V"
+LoginPage_TC_OO4,Functional,Login page ,Verify user is able to log into application with InValid credentials,,"1.Enter URL(index.html) and click go
+2.Click on My Account dropdown button
+3.Enter InValid username/email in Email text box
+4.Enter valid password in password text box
+5.Click on login button","Username: chalam@gmail
+password: Testing123",Application should show 'Incorrect email or password ' validation message.,Working as expected,,,Y,,"Jyothi Saai Raam P N,Samuvel Joshva S "
+LoginPage_TC_OO4,Functional,Login page ,Verify user is able to log into application with InValid credentials,,"1.Enter URL(index.html) and click go
+2.Click on My Account dropdown button
+3.Enter Valid username/email in Email text box
+4.Enter Invalid password in password text box
+5.Click on login button","Username: abcd@gmail.com
+password: Testing123678686786876876",Application should show 'Incorrect email or password ' validation message.,Working as expected,Pass,,Y,,"Naveen R S, Sriram V"
+LoginPage_TC_OO5,Functional,Login page ,Verify user is able to log into application with InValid credentials,,"1.Enter URL(index.html) and click go
+2.Click on My Account dropdown button
+3.Enter InValid username/email in Email text box
+4.Enter Invalid password in password text box
+5.Click on login button","Username: abcd
+password: Testing123678686786876876",Application should show 'Incorrect email or password ' validation message.,Working as expected,Pass,,Y,,"Jyothi Saai Raam P N,Samuvel Joshva S"
