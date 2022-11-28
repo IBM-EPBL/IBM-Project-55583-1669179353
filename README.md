@@ -7,7 +7,7 @@ TEAM ID : PNT2022TMID25153
 
 TEAM MEMBERS : Joe M J Marixson
 
-       Praveen Yikesh 
+       Praveen Yokesh 
        
        Madesh Kumar
        
